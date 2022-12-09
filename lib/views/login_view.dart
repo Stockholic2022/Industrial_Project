@@ -47,3 +47,6 @@ class _LoginViewState extends State<LoginView> {
             ),
           ),
           TextField(
+            controller: _password,
+            obscureText: true,
+            enableSuggestions: false,
