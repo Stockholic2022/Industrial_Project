@@ -1,6 +1,6 @@
 {
-    "name": "real",
-    "short_name": "real",
+    "name": "learningdart",
+    "short_name": "learningdart",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
