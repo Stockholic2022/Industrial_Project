@@ -35,3 +35,8 @@ class _LoginViewState extends State<LoginView> {
         appBar: AppBar(
         title: const Text('Login'),
     ),
+
+    body: Column(
+      children: [
+        TextField(
+          controller: _email,
