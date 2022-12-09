@@ -55,3 +55,7 @@ class _LoginViewState extends State<LoginView> {
               hintText: 'Enter your password here',
             ),
           ),
+          TextButton(
+            onPressed: () async {
+              final email = _email.text;
+              final password = _password.text;
