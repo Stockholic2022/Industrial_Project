@@ -21,3 +21,10 @@ class _LoginViewState extends State<LoginView> {
     _password = TextEditingController();
     super.initState();
   }
+
+  @override
+  void dispose() {
+    _email.dispose();
+    _password.dispose();
+    super.dispose();
+  }
