@@ -485,3 +485,11 @@ class realtime_price extends StatelessWidget {
     );
   }
 }
+class realtime_price extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+
+    );
+  }
+}
